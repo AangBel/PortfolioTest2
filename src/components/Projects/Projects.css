@@ -1,0 +1,29 @@
+.rutinaDiv{
+    display: grid;
+    
+     justify-content: center;
+     margin-left: 50px;
+}
+
+.movieDiv {
+    /* background: grey; */
+    display: grid;
+
+    justify-content: center;
+    margin-left: 50px;
+    /* color: white; */
+  }
+
+  .listDiv{
+    /* background: black; */
+    display: grid;
+
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .galleryDiv{
+    display: grid;
+
+    justify-content: center;
+    margin-left: 50px;
+  }
