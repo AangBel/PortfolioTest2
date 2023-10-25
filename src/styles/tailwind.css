@@ -24,9 +24,6 @@ body {
 
   /* //////////// */
 
-  @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* color */
 
@@ -46,11 +43,11 @@ body {
   color: #addedc;
 }
 
-nav li a {
+nav li {
   @apply px-4 py-5 text-lg;
 }
 
-nav li a:hover {
+nav li:hover {
   @apply text-blue-500;
 }
 
