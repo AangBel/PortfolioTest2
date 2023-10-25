@@ -31,10 +31,13 @@ function App() {
   return (
     <Router>
       <div>
-  
         <Switch>
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
-    
+
+          <Route exact path="/">
+            <Redirect to="/About" />
+          </Route>
+          
           <Route exact path="/About">
             <About />
           </Route>
@@ -50,7 +53,6 @@ function App() {
           <Route exact path="/Resume">
             <Resume />
           </Route>
-
         </Switch>
         <Footer />
       </div>
