@@ -31,7 +31,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
+  
         <Switch>
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
     
@@ -51,10 +51,6 @@ function App() {
             <Resume />
           </Route>
 
-          {/* If none of the other routes matched, we will show a 404. */}
-          {/* <Route>
-            <h1>404</h1>
-          </Route> */}
         </Switch>
         <Footer />
       </div>
