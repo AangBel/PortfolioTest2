@@ -49,9 +49,9 @@ function App() {
             <Projects />
           </Route>
 
-          <Route exact path="/Contact">
+          {/* <Route exact path="/Contact">
             <Contact />
-          </Route>
+          </Route> */}
 
           <Route exact path="/Resume">
             <Resume />
