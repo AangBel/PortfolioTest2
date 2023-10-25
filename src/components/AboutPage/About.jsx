@@ -74,6 +74,8 @@ const About = () => {
               headphones 🎧 I paid way too much for.
             </p>
             <br />
+            <br />
+
             <p className="pAbout">
               In my spare time I enjoy video games, learning to draw, reading,
               puzzles, and hanging out with friends.
