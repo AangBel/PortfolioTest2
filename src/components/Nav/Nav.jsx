@@ -15,6 +15,7 @@ function Nav() {
       <div>
       
         <>
+        <Nav />
           <Link className="navLink" to="/About">
             About
           </Link>
