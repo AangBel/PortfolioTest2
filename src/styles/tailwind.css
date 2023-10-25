@@ -43,11 +43,11 @@ body {
   color: #addedc;
 }
 
-nav li {
+nav li a{
   @apply px-4 py-5 text-lg;
 }
 
-nav li:hover {
+nav li a :hover {
   @apply text-blue-500;
 }
 
