@@ -43,17 +43,31 @@ body {
   color: #addedc;
 }
 
-nav li a{
-  @apply px-4 py-5 text-lg;
-}
+nav li a{ 
+  @apply px-4 text-lg;
+  width: 50px;
+
+
+} 
 
 nav li a :hover {
   @apply text-blue-500;
 }
 
-.mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+svg{
+ margin-left: 900px;
+ width: 40px;
 }
+
+a{
+  @apply text-white;
+  width: 10px;
+  height: 10px;
+}
+
+/* .mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+} */
 
 /* HERO */
 h1 {

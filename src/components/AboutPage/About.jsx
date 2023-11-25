@@ -17,11 +17,12 @@ const About = () => {
         <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
           <div className="hero-info pb-5 md:pb-0">
             <h1 className="text-3xl text-center">
-              Hi, <br />I am <span className="text-accent">A</span>ngelica Beltran
+              Hi, <br />I am <span className="text-accent">A</span>ngelica
+              Beltran
               <br />
               Full Stack Software Engineer
             </h1>
-            <div className="flex py-5">
+            <div className="">
               <div className="pr-4 text-accent hover:text-white">
                 <a href="https://www.linkedin.com/in/angelicabeltran">
                   <AiOutlineLinkedin size={40} />
@@ -39,13 +40,6 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* <div className="about-img">
-            <img
-              src={framedProfilePhoto}
-              alt="coding illustration"
-              className="lgw-[80%] md:ml-auto"
-            />
-          </div> */}
         </div>
       </section>
 
@@ -56,7 +50,8 @@ const About = () => {
             <p className="pAbout">
               In the last year I transitioned from working as a Child Protection
               and Children's Mental Health Social Worker to obtaining a
-              certification in Full Stack Engineering through Prime Digital Academy.
+              certification in Full Stack Engineering through Prime Digital
+              Academy.
               <br />
               <br />
               Although, I've just begun, I have always had an affinity for

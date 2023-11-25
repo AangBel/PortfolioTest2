@@ -23,20 +23,12 @@ import Resume from "../Resume/Resume";
 import "./App.css";
 
 function App() {
-  // const dispatch = useDispatch();
-  // const location = useLocation();
-
-  // const user = useSelector(store => store.user);
-
   return (
     <Router>
       <div>
-        
         <Nav />
-        
+
         <Switch>
-          {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
-          
           <Route exact path="/">
             <Redirect to="/About" />
           </Route>
@@ -49,10 +41,6 @@ function App() {
             <Projects />
           </Route>
 
-          {/* <Route exact path="/Contact">
-            <Contact />
-          </Route> */}
-
           <Route exact path="/Resume">
             <Resume />
           </Route>
@@ -62,5 +50,5 @@ function App() {
     </Router>
   );
 }
-
+//test
 export default App;
