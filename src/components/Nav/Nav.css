@@ -1,7 +1,8 @@
 .nav {
   /* flex box layout */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
   align-items: center;
 
   margin: 0 0 0px;
@@ -11,6 +12,7 @@
 
 .nav a {
   text-decoration: none;
+  font-size: 30px;
 }
 
 .nav-title {
@@ -18,11 +20,13 @@
   font-weight: 700;
   color: #f2f2f2;
   padding-left: 10px;
+  padding-bottom: 20px;
   margin: 0;
 }
 
 .navLink {
-  display: inline-block;
+  /* display: inline-block; */
+  display: inline;
   color: #f2f2f2;
   background-color:rgb(59 130 246);
   font-family: "Gruppo", sans-serif;

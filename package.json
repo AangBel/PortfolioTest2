@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^3.3.4"
   },
   "browserslist": {
@@ -50,6 +51,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "heroku-run-build-script": true
+  }
 }
+
