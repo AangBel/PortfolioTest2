@@ -1,7 +1,8 @@
 .nav {
   /* flex box layout */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
   align-items: center;
 
   margin: 0 0 0px;
@@ -22,7 +23,8 @@
 }
 
 .navLink {
-  display: inline-block;
+  /* display: inline-block; */
+  display: inline;
   color: #f2f2f2;
   background-color:rgb(59 130 246);
   font-family: "Gruppo", sans-serif;
